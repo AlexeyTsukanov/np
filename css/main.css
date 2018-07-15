@@ -1,0 +1,237 @@
+@font-family{
+	font-family: Bebas Neue Cyrillic;
+	src: url(../fonts/._BebasNeue Book);
+}
+
+body{
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after{
+		content: '';
+		display: table;
+		width: 100%;
+		clear:both;
+}
+
+.container{
+	width: 940px;
+	margin: 0 auto;
+	padding-top: 34px;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+header{
+	background: url(../img/back1.jpg) no-repeat center top / cover;
+	height: 100vh;
+}
+
+header hr{
+	height: 8px;
+	background: #fff;
+	border: none;
+}
+
+.logo{
+	margin-top: 5px;
+}
+
+nav{
+	float: right;
+}
+
+.menu{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 45px;
+}
+
+.menu li:last-child{
+	margin-right: 0;
+}
+
+.menu a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.titles{
+	font-family: Bebas Neue Cyrillic;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.titles h1{
+	font-size: 86px;
+	margin-top: 135px;
+	margin-bottom: 5px;
+}
+
+.titles h2{
+	margin: 0;
+	font-size: 37px;
+	margin-bottom: 5px;
+}
+
+.button{
+	background: #fed136;
+	color: #83723e;
+	border-radius: 10px;
+	display: block;
+	width: 160px;
+	padding: 18px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+	margin-top: 40px;
+	font-family: Arial;
+}
+
+.section_title h2{
+	color: #222;
+	margin: 0;
+	margin-top: 120px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.section_title p{
+	color: #bbb;
+	margin: 0;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 7px;
+	margin-bottom: 85px;
+}
+
+.tabak_items{
+	width: 190px;
+	float: left;
+}
+
+.tabak_items:last-child{
+	float: right;
+}
+
+.tabak_items:nth-child(2){
+	margin-left: 180px;
+}
+
+.tabak_items h3{
+	color: #222;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin: 22px 0 13px 0;
+}
+
+.tabak_items img{
+	padding-left: 63px;
+}
+
+.tabak_items p{
+	color: #bbb;
+	margin: 0;
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 120px;
+}
+
+#kalian{
+	margin: 0;
+	background: #f7f7f7;
+	padding-bottom: 130px;
+	padding-top: 100px;
+}
+
+.kalian_items p{
+	color: #bbb;
+	margin: 0;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#kalian h2{
+	margin-top: 0px;
+}
+
+.kalian_items{
+	float: left;
+	margin: 0;
+}
+
+.kalian_items:last-child{
+	float: right;
+}
+
+.kalian_items:nth-child(2){
+	margin-left: 35px;
+}
+
+#contacts{
+	margin-top: 60px;
+}
+
+#contacts p{
+	margin: 0;
+	color: #777;
+	text-align: left;
+	font-family: Bebas Neue Cyrillic;
+	font-size: 27px;
+	padding-bottom: 10px;
+}
+
+.feedback_area{
+	margin-left: 100px;
+}
+
+.feedback_area p{
+	margin: 0;
+	color: #777;
+	text-align: left;
+	font-family: Bebas Neue Cyrillic;
+	font-size: 20px;
+	padding-bottom: 5px;
+	margin-top: 50px;
+}
+
+footer textarea{
+	font-family: Bebas Neue Cyrillic;
+	color: #959493;
+	text-align: left;
+	background: #e2e2e1;
+	width: 720px;
+	height: 340px;
+	border: none;
+	padding-top: 10px;
+	padding-left: 8px;
+	margin-bottom: 50px;
+}
+
+.tz{
+	color: #bbb;
+	margin: 0;
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+
